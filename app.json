@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.stoneski.testExpoApp",
@@ -33,6 +35,12 @@
       "eas": {
         "projectId": "ad29d57a-43fe-496e-b849-57d4213b1f1a"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ad29d57a-43fe-496e-b849-57d4213b1f1a"
     }
   }
 }

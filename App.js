@@ -22,7 +22,6 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.paragraph}>Save an item, and grab it later!</Text>
-      {}
 
       <TextInput
         style={styles.textInput}
