@@ -11,9 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.stoneski.testExpoApp",
@@ -41,6 +39,15 @@
     },
     "updates": {
       "url": "https://u.expo.dev/ad29d57a-43fe-496e-b849-57d4213b1f1a"
-    }
+    },
+    "plugins": [
+      ["./my-plugin", "develop"],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Mordo $(PRODUCT_NAME) prosi o dostępy do kamery"
+        }
+      ]
+    ]
   }
 }
